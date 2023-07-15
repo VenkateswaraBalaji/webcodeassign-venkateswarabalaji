@@ -1,0 +1,62 @@
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .brand {
+    color: #172636; /* Blue color for the brand */
+  }
+  
+  .product-name {
+    color: #b44218; /* Orange color for the product name */
+  }
+  
+  .price {
+    color: #144b14; /* Green color for the price */
+  }
+  
+  .description {
+    color: #4f086e; /* Purple color for the description */
+  }
+
+  .product-card {
+    border: 2px solid #991f3e; /* Add border to the product card */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .product-card h2,
+  .product-card h3,
+  .product-card p {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+          
+  h1 {
+    text-align: center;
+    color: #1b5088;
+  }
+
+  body {
+    background-color: rgb(237, 192, 200);
+  }
